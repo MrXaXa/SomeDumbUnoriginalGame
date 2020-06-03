@@ -1,0 +1,100 @@
+scuff.controller:
+	ScuffLauncher.java
+	ScuffGame.java
+
+scuff.model.gfx:
+	Texture.java
+	Animation.java
+
+scuff.model.game
+	Tile.java -a
+	Item.java -a
+	Entity.java -a
+
+scuff.model.game.tile
+	DirtTile.java
+	StoneTile.java
+	WaterTile.java
+	ScrabbleTile.java
+
+scuff.model.game.tile.interf
+	GravityTile.java -i
+	FluidTile.java -i
+	OreTile.java -i
+	
+scuff.model.game.entity
+	Character.java -a
+	Enemy.java -a
+	Boss.java -a
+	ItemEntity.java
+
+scuff.model.game.entity.character
+	Player.java -a???
+	NonPlayableCharacter.java -a
+
+scuff.model.game.entity.character.npc
+	<NPC Type 1>.java
+	<NPC Type 2>.java
+	<NPC Type 3>.java
+
+scuff.model.game.entity.enemy
+	Slime.java
+	Zombie.java
+	Depression.java
+
+scuff.model.game.entity.boss
+	<Boss 1>.java
+	<Boss 2>.java
+	<Boss 3>.java
+
+scuff.model.game.item
+	TileItem.java
+	Weapon.java
+	Tool.java
+
+scuff.model.game.item.tile
+	Dirt.java
+	Stone.java
+	WaterBucket.java
+
+scuff.model.game.item.weapon
+	MeleeWeapon.java -a
+	RangedWeapon.java -a
+
+scuff.model.game.item.weapon.melee
+	Sword.java -a
+	Knife.java -a
+	Spear.java -a
+
+scuff.model.game.item.weapon.melee.sword
+	CopperSword.java
+	SteelSword.java
+	GoldSword.java
+	
+scuff.model.game.item.weapon.melee.knife
+	CopperKnife.java
+	SteelKnife.java
+	GoldKnife.java
+
+scuff.model.game.item.weapon.melee.spear
+	CopperSpear.java
+	SteelSpear.java
+	GoldSpear.java
+
+scuff.model.game.item.weapon.ranged
+	Bow.java -a
+	Boomerang.java -a
+
+scuff.model.game.item.weapon.ranged.bow
+	CopperBow.java
+	SteelBow.java
+	GoldBow.java
+
+scuff.model.game.item.weapon.ranged.boomerang
+	CopperBoomerang.java
+	SteelBoomerang.java
+	GoldBoomerang.java
+
+scuff.view
+	GameWindow.java
+	DebugWindow.java
