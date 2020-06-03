@@ -1,3 +1,7 @@
+Key:
+	-a	abstract class
+	-i	interface
+
 scuff.controller:
 	ScuffLauncher.java
 	ScuffGame.java
