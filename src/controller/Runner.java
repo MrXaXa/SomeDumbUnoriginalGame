@@ -2,7 +2,7 @@ package controller;
 
 public class Runner
 {
-	public static void main(String[] args)
+	public static void main(String [] args)
 	{
 		AppController controller = new AppController();
 		controller.start();
