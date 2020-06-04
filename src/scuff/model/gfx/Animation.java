@@ -1,6 +1,6 @@
 package scuff.model.gfx;
 
-public class Animation
+public abstract class Animation
 {
 	
 }

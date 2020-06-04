@@ -1,6 +1,8 @@
 package scuff.model.game.entity.enemy;
 
-public class Slime
+import scuff.model.game.entity.Enemy;
+
+public class Slime extends Enemy
 {
 	
 }

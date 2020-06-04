@@ -1,6 +1,8 @@
 package scuff.model.game.entity;
 
-public class Boss
+import scuff.model.game.Entity;
+
+public abstract class Boss extends Entity
 {
 	
 }

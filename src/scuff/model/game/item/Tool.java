@@ -1,6 +1,8 @@
 package scuff.model.game.item;
 
-public class Tool
+import scuff.model.game.Item;
+
+public abstract class Tool extends Item
 {
 	
 }

@@ -5,6 +5,7 @@ Key:
 scuff.controller:
 	ScuffLauncher.java
 	ScuffGame.java
+	IOController.java
 
 scuff.model.gfx:
 	Texture.java

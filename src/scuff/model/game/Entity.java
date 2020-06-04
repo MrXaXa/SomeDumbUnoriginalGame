@@ -1,6 +1,6 @@
 package scuff.model.game;
 
-public class Entity
+public abstract class Entity
 {
 	
 }

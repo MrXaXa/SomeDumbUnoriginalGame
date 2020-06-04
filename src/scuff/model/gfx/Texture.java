@@ -1,6 +1,6 @@
 package scuff.model.gfx;
 
-public class Texture
+public abstract class Texture
 {
 	
 }

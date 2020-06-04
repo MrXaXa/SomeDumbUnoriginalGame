@@ -1,6 +1,8 @@
 package scuff.model.game.item.weapon.ranged;
 
-public class Boomerang
+import scuff.model.game.item.weapon.RangedWeapon;
+
+public abstract class Boomerang extends RangedWeapon
 {
 	
 }

@@ -1,6 +1,8 @@
 package scuff.model.game.item.weapon.melee;
 
-public class Sword
+import scuff.model.game.item.weapon.MeleeWeapon;
+
+public abstract class Sword extends MeleeWeapon
 {
 	
 }

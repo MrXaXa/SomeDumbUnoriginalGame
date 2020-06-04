@@ -1,6 +1,8 @@
 package scuff.model.game.tile.abstr;
 
-public class GravityTile
+import scuff.model.game.Tile;
+
+public abstract class GravityTile extends Tile
 {
 	
 }

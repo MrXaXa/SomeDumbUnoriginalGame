@@ -1,6 +1,8 @@
 package scuff.model.game.item.weapon.ranged;
 
-public class Bow
+import scuff.model.game.item.weapon.RangedWeapon;
+
+public abstract class Bow extends RangedWeapon
 {
 	
 }

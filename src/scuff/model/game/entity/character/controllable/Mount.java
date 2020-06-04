@@ -1,6 +1,8 @@
 package scuff.model.game.entity.character.controllable;
 
-public class Mount
+import scuff.model.game.entity.character.ControllableCharacter;
+
+public abstract class Mount extends ControllableCharacter
 {
 	
 }
