@@ -8,3 +8,4 @@ public class ScuffLauncher
 		game.start();
 	}
 }
+// pls work
